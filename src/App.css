@@ -18,20 +18,7 @@
     grid-template-columns: 2fr 10fr;
 }
 
-.header {
-  grid-area: header;
-  background-color: green;
-}
 
-.nav {
-  grid-area: nav;
-  background-color: rosybrown;
-}
-
-.content {
-  grid-area: content;
-  background-color: #61dafb;
-}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

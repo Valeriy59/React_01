@@ -1,25 +1,25 @@
 import React from 'react';
-
+import classes from './Profile.module.css'
 //  Компонента для профиля, затем импортируется в  App
 
 const Profile = () => {
   return (
-    <div className='content'>
+    <div className={classes.content}>
       <div>
         <img src="https://avatars.mds.yandex.net/get-images-cbir/1996356/mQsH45em7MMUY9pagcnbrA9202/ocr"></img>
       </div>
       <div>
         ava + desc
       </div>
-      <div>
+      <div className={classes.posts}>
         my posts
-        <div>
+        <div className={classes.item}>
           new post
         </div>
-        <div>
+        <div className={classes.item}>
           post1
         </div>
-        <div>
+        <div className={classes.item}>
           post2
         </div>
       </div>
