@@ -1,5 +1,6 @@
 import React from 'react';
 import classes from './Profile.module.css'
+import MyPosts from './MyPosts/MyPosts';
 //  Компонента для профиля, затем импортируется в  App
 
 const Profile = () => {
@@ -11,18 +12,7 @@ const Profile = () => {
       <div>
         ava + desc
       </div>
-      <div className={classes.posts}>
-        my posts
-        <div className={classes.item}>
-          new post
-        </div>
-        <div className={classes.item}>
-          post1
-        </div>
-        <div className={classes.item}>
-          post2
-        </div>
-      </div>
+      <MyPosts />
     </div>
   )
 }
